@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-x_values = [1, 2, 3, 4, 5]
-y_values = [1, 4, 9, 16, 25]
+x_values = list(range(1, 1000))
+y_values = [i ** 2 for i in x_values]
 plt.style.use('fast')
 fig, ax = plt.subplots()
 ax.scatter(x_values, y_values, s=200)
