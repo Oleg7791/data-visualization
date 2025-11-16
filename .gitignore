@@ -32,7 +32,7 @@ ENV/
 .myenv/
 
 # PyCharm
-.idea/
+.idea
 *.iws
 
 

@@ -5,6 +5,7 @@ from random_walk import RandomWalk
 # новые блуждания строятся до тех пор, пока программа активна
 while True:
     # построение случайного блуждания
+
     rw = RandomWalk()
     rw.fill_walk()
 
