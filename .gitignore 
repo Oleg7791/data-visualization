@@ -29,9 +29,12 @@ env/
 ENV/
 .venv/
 .pyenv/
+.myenv/
 
 # PyCharm
 .idea/
+*.iws
+
 
 # VSCode
 .vscode/
@@ -58,3 +61,10 @@ instance/
 
 # Other
 *.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
