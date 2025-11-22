@@ -6,12 +6,12 @@ from random_walk import RandomWalk
 while True:
     # построение случайного блуждания
 
-    rw = RandomWalk(50000)
+    rw = RandomWalk(100000)
     rw.fill_walk()
 
     # назначение размера области просмотра
     plt.style.use('classic')
-    fig, ax = plt.subplots(figsize=(15,9))
+    fig, ax = plt.subplots(figsize=(15,9), dpi=128)
     point_numbers = range(rw.num_points)
     ax.scatter(rw.x_values, rw.y_values, c=point_numbers,
                cmap=plt.cm.Blues, edgecolors='none', s=1)
