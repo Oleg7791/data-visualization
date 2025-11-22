@@ -14,7 +14,7 @@ while True:
     fig, ax = plt.subplots(figsize=(15,9), dpi=128)
     point_numbers = range(rw.num_points)
     ax.scatter(rw.x_values, rw.y_values, c=point_numbers,
-               cmap=plt.cm.Blues, edgecolors='none', s=1)
+               cmap=plt.cm.Blues, edgecolors='none', s=2)
     # выделение первой и последней точек
     ax.scatter(0, 0, c='green', edgecolors='none', s=100)
     ax.scatter(rw.x_values[-1], rw.y_values[-1],
